@@ -1,0 +1,50 @@
+@font-face {
+    font-family: outfit;
+    src: url(/assets/fonts/outfit/static/Outfit-Regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: youngserif;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf) format("ttf");
+}
+
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+
+img {
+    max-width: 100%;
+}
+body {
+   
+}
+
+h1, h2 {
+    font-family: youngserif;
+    color: hsl(14, 45%, 36%);
+}
+
+p {
+    line-height: 1.6;
+    
+}
+
+.container div:not(:first-child) {
+    padding: 1.5rem;
+}
+
+.banner h1 {
+    margin-bottom: 1.5rem;
+}
+
+.atribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.atribution a {
+    color: hsl(228, 45%, 44%);
+}
